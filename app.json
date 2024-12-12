@@ -27,7 +27,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#0E0F11"
-      }
+      },
+      "package": "mygoals.android"
     },
     "web": {
       "bundler": "metro",
@@ -40,6 +41,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a31a3d72-e9dc-452c-bf42-3fff227487c5"
+      }
     }
   }
 }
